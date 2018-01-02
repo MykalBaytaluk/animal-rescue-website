@@ -63,16 +63,16 @@
           <legend class="bold giga push">Personal details</legend>
           <div class="grid pad-t-1-4 push-1-2">
             <div class="unit xs-1 s-1 m-1-4 l-1-4 gutter-1-4 push-1-8">
-              <label class="push-1-8" for="name">First name</label>
-              <input id="name" name="name">
+              <label class="push-1-8" for="firstname">First name</label>
+              <input id="firstname" name="firstname">
             </div>
             <div class="unit xs-1 s-1 m-1-4 l-1-4 gutter-1-4 push-1-8">
-              <label class="push-1-8" for="name">Middle name</label>
-              <input id="name" name="name">
+              <label class="push-1-8" for="middlename">Middle name</label>
+              <input id="middlename" name="middlename">
             </div>
             <div class="unit xs-1 s-1 m-1-4 l-1-4 gutter-1-4 push-1-8">
-              <label class="push-1-8" for="name">Last name</label>
-              <input id="name" name="name">
+              <label class="push-1-8" for="lastname">Last name</label>
+              <input id="lastname" name="lastname">
             </div>
             <div class="unit xs-1 s-1 m-1-4 l-1-4 gutter-1-4">
               <label class="push-1-8" for="nick-name">What should we call you?</label>
@@ -80,24 +80,24 @@
               <p class="micro italic">What all your friends call you, e.g. “Liz”.</p>
             </div>
             <div class="unit xs-1 s-1 m-1-3 l-1-3 gutter-1-4 push">
-              <label class="push-1-8" for="email">Email</label>
-              <input id="email" type="email" name="email">
+              <label class="push-1-8" for="mainemail">Email</label>
+              <input id="mainemail" type="email" name="mainemail">
             </div>
             <div class="unit xs-1 s-1 m-1-3 l-1-3 gutter-1-4 push">
-              <label class="push-1-8" for="tel">Main phone</label>
-              <input id="tel" type="tel" name="tel">
+              <label class="push-1-8" for="maintel">Main phone</label>
+              <input id="maintel" type="tel" name="maintel">
             </div>
             <div class="unit xs-1 s-1 m-1-3 l-1-3 gutter-1-4 push">
-              <label class="push-1-8" for="tel">Work phone</label>
-              <input id="tel" type="tel" name="tel">
+              <label class="push-1-8" for="worktel">Work phone</label>
+              <input id="worktel" type="tel" name="worktel">
             </div>
             <div class="unit xs-1 s-1 m-1-3 l-1-3 gutter-1-4 push">
               <label class="push-1-4" for="date">Date of birth</label>
               <input id="date" type="date" name="date">
             </div>
             <div class="unit xs-1 s-1 m-1-3 l-1-3 gutter-1-4 push">
-              <label class="push-1-8" for="status">Marital Status</label>
-              <select id="status" name="status">
+              <label class="push-1-8" for="maritalstatus">Marital Status</label>
+              <select id="maritalstatus" name="maritalstatus">
                 <option value="">Select one, please</option>
                 <option>Single</option>
                 <option>Married</option>
@@ -106,8 +106,8 @@
               </select>
             </div>
             <div class="unit xs-1 s-1 m-1-3 l-1-3 gutter-1-4 push">
-              <label class="push-1-8" for="status">Do you have Children? How Many?</label>
-              <select id="status" name="status">
+              <label class="push-1-8" for="childstatus">Do you have Children? How Many?</label>
+              <select id="childstatus" name="childstatus">
                 <option value="">Select one, please</option>
                 <option>No</option>
                 <option>1</option>
@@ -124,10 +124,10 @@
             <legend class="bold push-1-2 giga">Do you or your partner travel for work?</legend>
             <div class="grid">
               <div class="unit xs-1 s-1 m-1 l-1 push">
-                <input id="yes" type="radio" name="valid">
-                <label for="yes">Yes</label>
-                <input id="no" type="radio" name="valid">
-                <label for="no">No</label>
+                <input id="yes-1" type="radio" name="valid">
+                <label for="yes-1">Yes</label>
+                <input id="no-1" type="radio" name="valid">
+                <label for="no-1">No</label>
               </div>
             </div>
           </fieldset>
@@ -218,10 +218,10 @@
             <legend class="bold push-1-2 giga">Do you have roommates?</legend>
             <div class="grid">
               <div class="unit xs-1 s-1 m-1 l-1 push">
-                <input id="yes" type="radio" name="flats">
-                <label for="yes">Yes</label>
-                <input id="no" type="radio" name="flats">
-                <label for="no">No</label>
+                <input id="yes-4" type="radio" name="flats">
+                <label for="yes-4">Yes</label>
+                <input id="no-4" type="radio" name="flats">
+                <label for="no-4">No</label>
               </div>
             </div>
           </fieldset>
@@ -229,10 +229,10 @@
             <legend class="bold push-1-2 giga">Is your yard fenced in?</legend>
             <div class="grid">
               <div class="unit xs-1 s-1 m-1 l-1 push">
-                <input id="yes-2" type="radio" name="fenced">
-                <label for="yes-2">Yes</label>
-                <input id="no-2" type="radio" name="fenced">
-                <label for="no-2">No</label>
+                <input id="yes-5" type="radio" name="fenced">
+                <label for="yes-5">Yes</label>
+                <input id="no-5" type="radio" name="fenced">
+                <label for="no-5">No</label>
               </div>
             </div>
           </fieldset>
@@ -240,10 +240,10 @@
             <legend class="bold push-1-2 giga">Is there shade available outdoors?</legend>
             <div class="grid">
               <div class="unit xs-1 s-1 m-1 l-1 push">
-                <input id="yes-3" type="radio" name="outdoors">
-                <label for="yes-3">Yes</label>
-                <input id="no-3" type="radio" name="outdoors">
-                <label for="no-3">No</label>
+                <input id="yes-6" type="radio" name="outdoors">
+                <label for="yes-6">Yes</label>
+                <input id="no-6" type="radio" name="outdoors">
+                <label for="no-6">No</label>
               </div>
             </div>
           </fieldset>
@@ -274,16 +274,16 @@
               <input id="email" type="email" name="email">
             </div>
             <div class="unit xs-1 s-1 m-1-4 l-1-4 gutter-1-4 push">
-              <label class="push-1-8" for="tel">Main phone</label>
-              <input id="tel" type="tel" name="tel">
+              <label class="push-1-8" for="friendmaintel">Main phone</label>
+              <input id="friendmaintel" type="tel" name="friendmaintel">
             </div>
             <div class="unit xs-1 s-1 m-1-4 l-1-4 gutter-1-4 push">
-              <label class="push-1-8" for="tel">Work phone</label>
-              <input id="tel" type="tel" name="tel">
+              <label class="push-1-8" for="friendworktel">Work phone</label>
+              <input id="friendworktel" type="tel" name="friendworktel">
             </div>
             <div class="unit xs-1 s-1 m-1-4 l-1-4 gutter-1-4 push">
-              <label class="push-1-4" for="date">Date of birth</label>
-              <input id="date" type="date" name="date">
+              <label class="push-1-4" for="frienddate">Date of birth</label>
+              <input id="frienddate" type="date" name="frienddate">
             </div>
           </div>
         </fieldset>
@@ -294,10 +294,10 @@
             <legend class="bold push-1-2 giga">Have you researched Pet Insurance?</legend>
             <div class="grid">
               <div class="unit xs-1 s-1 m-1 l-1 push">
-                <input id="yes" type="radio" name="insurance">
-                <label for="yes">Yes</label>
-                <input id="no" type="radio" name="insurance">
-                <label for="no">No</label>
+                <input id="yes-7" type="radio" name="insurance">
+                <label for="yes-7">Yes</label>
+                <input id="no-7" type="radio" name="insurance">
+                <label for="no-7">No</label>
               </div>
             </div>
           </fieldset>
@@ -305,10 +305,10 @@
             <legend class="bold push-1-2 giga">Are you willing to attend obedience classes?</legend>
             <div class="grid">
               <div class="unit xs-1 s-1 m-1 l-1 push">
-                <input id="yes-2" type="radio" name="obedience">
-                <label for="yes-2">Yes</label>
-                <input id="no-2" type="radio" name="obedience">
-                <label for="no-2">No</label>
+                <input id="yes-8" type="radio" name="obedience">
+                <label for="yes-8">Yes</label>
+                <input id="no-8" type="radio" name="obedience">
+                <label for="no-8">No</label>
               </div>
             </div>
           </fieldset>
@@ -316,10 +316,10 @@
             <legend class="bold push-1-2 giga">Are you active?</legend>
             <div class="grid">
               <div class="unit xs-1 s-1 m-1 l-1 push">
-                <input id="yes-3" type="radio" name="activity">
-                <label for="yes-3">Yes</label>
-                <input id="no-3" type="radio" name="activity">
-                <label for="no-3">No</label>
+                <input id="yes-9" type="radio" name="activity">
+                <label for="yes-9">Yes</label>
+                <input id="no-9" type="radio" name="activity">
+                <label for="no-9">No</label>
               </div>
             </div>
           </fieldset>
@@ -327,10 +327,10 @@
             <legend class="bold push-1-2 giga">Do you know that most Giant Breeds drool & slobber? It's cute, we swear...</legend>
             <div class="grid">
               <div class="unit xs-1 s-1 m-1 l-1 push">
-                <input id="yes" type="radio" name="breeds">
-                <label for="yes">Yes</label>
-                <input id="no" type="radio" name="breeds">
-                <label for="no">No</label>
+                <input id="yes-10" type="radio" name="breeds">
+                <label for="yes-10">Yes</label>
+                <input id="no-10" type="radio" name="breeds">
+                <label for="no-10">No</label>
               </div>
             </div>
           </fieldset>
@@ -338,10 +338,10 @@
             <legend class="bold push-1-2 giga">Are you aware of the medical risks that are associated with Giant Breeds?</legend>
             <div class="grid">
               <div class="unit xs-1 s-1 m-1 l-1 push">
-                <input id="yes-2" type="radio" name="risks">
-                <label for="yes-2">Yes</label>
-                <input id="no-2" type="radio" name="risks">
-                <label for="no-2">No</label>
+                <input id="yes-11" type="radio" name="risks">
+                <label for="yes-11">Yes</label>
+                <input id="no-11" type="radio" name="risks">
+                <label for="no-11">No</label>
               </div>
             </div>
           </fieldset>
@@ -349,10 +349,10 @@
             <legend class="bold push-1-2 giga">Are you interested in adopting a Senior or Special Needs Dog?</legend>
             <div class="grid">
               <div class="unit xs-1 s-1 m-1 l-1 push">
-                <input id="yes-3" type="radio" name="senior">
-                <label for="yes-3">Yes</label>
-                <input id="no-3" type="radio" name="senior">
-                <label for="no-3">No</label>
+                <input id="yes-12" type="radio" name="senior">
+                <label for="yes-12">Yes</label>
+                <input id="no-12" type="radio" name="senior">
+                <label for="no-12">No</label>
               </div>
             </div>
           </fieldset>
@@ -360,10 +360,10 @@
             <legend class="bold push-1-2 giga">Are you interested in becoming a volunteer for BDHPI?</legend>
             <div class="grid">
               <div class="unit xs-1 s-1 m-1 l-1 push">
-                <input id="yes" type="radio" name="volunteer">
-                <label for="yes">Yes</label>
-                <input id="no" type="radio" name="volunteer">
-                <label for="no">No</label>
+                <input id="yes-13" type="radio" name="volunteer">
+                <label for="yes-13">Yes</label>
+                <input id="no-13" type="radio" name="volunteer">
+                <label for="no-13">No</label>
               </div>
             </div>
           </fieldset>
@@ -371,10 +371,10 @@
             <legend class="bold push-1-2 giga">Are you interested in becoming a foster home for BDHPI?</legend>
             <div class="grid">
               <div class="unit xs-1 s-1 m-1 l-1 push">
-                <input id="yes-2" type="radio" name="foster">
-                <label for="yes-2">Yes</label>
-                <input id="no-2" type="radio" name="foster">
-                <label for="no-2">No</label>
+                <input id="yes-14" type="radio" name="foster">
+                <label for="yes-14">Yes</label>
+                <input id="no-14" type="radio" name="foster">
+                <label for="no-14">No</label>
               </div>
             </div>
           </fieldset>
@@ -384,7 +384,7 @@
           <legend class="bold push giga">What type of big dog would be your perfect fit?</legend>
           <div class="grid push">
             <div class="unit xs-1 s-1 m-1 l-1">
-              <textarea id="details" name="message"></textarea>
+              <textarea id="details-1" name="message"></textarea>
             </div>
           </div>
         </fieldset>
@@ -392,7 +392,7 @@
           <legend class="bold push giga">What makes you a great fit for a big dog in need of adoption?</legend>
           <div class="grid push">
             <div class="unit xs-1 s-1 m-1 l-1">
-              <textarea id="details" name="message"></textarea>
+              <textarea id="details-2" name="message"></textarea>
             </div>
           </div>
         </fieldset>

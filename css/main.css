@@ -34,3 +34,9 @@ nav {
   max-width: 80%;
   height: 220px;
 }
+
+@media screen and (min-width: 60em) {
+  nav {
+    text-align: right;
+  }
+}

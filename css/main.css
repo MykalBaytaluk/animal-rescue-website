@@ -16,3 +16,21 @@ textarea {
 textarea {
   height: 10rem;
 }
+
+.nav-hover:hover {
+  background-color: #f3f3f3;
+}
+
+.btn-ghost {
+  text-decoration: underline;
+}
+
+nav {
+  text-align: left;
+}
+
+.testimonials {
+  border-radius: 50%;
+  max-width: 80%;
+  height: 220px;
+}

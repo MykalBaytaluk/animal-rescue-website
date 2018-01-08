@@ -6,6 +6,9 @@
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="application-name" content="Your Site Name">
+  <link rel="apple-touch-icon" href="/favicon-196.png">
+  <link href="favicon.ico" rel="shortcut icon">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
@@ -385,7 +388,14 @@
           <legend class="bold push mega">What type of big dog would be your perfect fit?</legend>
           <div class="grid push">
             <div class="unit xs-1 s-1 m-1 l-1">
-              <textarea id="details-1" name="message"></textarea>
+              <div class="grid">
+                <div class="unit xs-1">
+                  <label for="details-1">Please fill out the field below</label>
+                </div>
+                <div class="unit xs-1">
+                  <textarea id="details-1" name="message" required></textarea>
+                </div>
+              </div>
             </div>
           </div>
         </fieldset>
@@ -393,7 +403,14 @@
           <legend class="bold push mega">What makes you a great fit for a big dog in need of adoption?</legend>
           <div class="grid push">
             <div class="unit xs-1 s-1 m-1 l-1">
-              <textarea id="details-2" name="message" required></textarea>
+              <div class="grid">
+                <div class="unit xs-1">
+                  <label for="details-2">Please fill out the field below</label>
+                </div>
+                <div class="unit xs-1">
+                  <textarea id="details-2" name="message" required></textarea>
+                </div>
+              </div>
             </div>
           </div>
         </fieldset>

@@ -1,3 +1,7 @@
+html {
+  font-family: 'Cabin', sans-serif;
+}
+
 fieldset {
   border: none;
 }
@@ -11,6 +15,15 @@ textarea {
 .margin-none {
   margin-left: 0;
   margin-right: 0;
+}
+
+.hero {
+  opacity: 0.7;
+}
+
+.doggo {
+  max-height: 25em;
+  max-width: 20em;
 }
 
 a:focus {

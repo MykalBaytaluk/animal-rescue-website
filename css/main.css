@@ -1,5 +1,5 @@
 html {
-  font-family: 'Cabin', sans-serif;
+  font-family: "Cabin", sans-serif;
 }
 
 fieldset {
@@ -18,7 +18,7 @@ textarea {
 }
 
 .hero {
-  opacity: 0.7;
+  opacity: .7;
 }
 
 .doggo {

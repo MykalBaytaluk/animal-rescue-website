@@ -45,7 +45,7 @@ nav {
 .testimonials {
   border-radius: 50%;
   max-width: 80%;
-  height: 220px;
+  height: 290px;
 }
 
 @media screen and (min-width: 60em) {

@@ -18,7 +18,7 @@ textarea {
 }
 
 .hero {
-  opacity: .7;
+  opacity: .8;
 }
 
 .doggo {
@@ -27,7 +27,7 @@ textarea {
 }
 
 a:focus {
-  outline: 3px solid #0191d0;
+  outline: 3px solid #35e0ee;
 }
 
 .skip-links a {
@@ -44,7 +44,13 @@ textarea {
 }
 
 .nav-hover:hover {
-  background-color: #f3f3f3;
+  background-color: #548354;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.apply:hover {
+  color: #35e0ee;
 }
 
 .btn-ghost {
@@ -55,10 +61,19 @@ nav {
   text-align: left;
 }
 
+.banner-content {
+  color: #fff;
+  padding-left: 3em;
+}
+
 .testimonials {
-  border-radius: 50%;
   max-width: 80%;
   height: 290px;
+}
+
+.testimonials-2 {
+  max-width: 80%;
+  height: 450px;
 }
 
 @media screen and (min-width: 60em) {
